@@ -17,6 +17,22 @@ h1 {
     margin-block-end: 2rem;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.errorList {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    color: red;
+    list-style: none;
+}
+
 fieldset {
     display: flex;
     flex-direction: column;
